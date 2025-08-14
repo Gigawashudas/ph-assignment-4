@@ -22,7 +22,7 @@ function resultReport(marks) {
     return { finalScore: avg, pass: passCount, fail: failCount };
 }
 
-console.log(resultReport([98, 87, 67, 91, 92, 33, 87])); // { finalScore: 79, pass: 6, fail: 1 }
-console.log(resultReport([98, 87, 67, 91, 92, 33, 87])); // { finalScore: 79, pass: 6, fail: 1 }
-console.log(resultReport(100)); // "Invalid"
-console.log(resultReport([])); // { finalScore: 0, pass: 0, fail: 0 }
+console.log(resultReport([98, 87, 67, 91, 92, 33, 87]));
+console.log(resultReport([98, 87, 67, 91, 92, 33, 87])); 
+console.log(resultReport(100));
+console.log(resultReport([]));

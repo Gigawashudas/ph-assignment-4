@@ -13,8 +13,8 @@ function isSame(arr1, arr2) {
     return true;
 }
 
-console.log(isSame([1, 2, 3], [1, 2, 3])); // true
-console.log(isSame([1, 2, 3], [1, 3, 2])); // true
-console.log(isSame([1, undefined, 3], [1, null, 3])); // false
-console.log(isSame([1, "4", 4], [1, 4, 4])); // false
-console.log(isSame(256, [2, 5, 6])); // "Invalid"
+console.log(isSame([1, 2, 3], [1, 2, 3]));
+console.log(isSame([1, 2, 3], [1, 3, 2]));
+console.log(isSame([1, undefined, 3], [1, null, 3]));
+console.log(isSame([1, "4", 4], [1, 4, 4]));
+console.log(isSame(256, [2, 5, 6]));

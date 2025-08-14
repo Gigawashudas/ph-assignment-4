@@ -15,5 +15,5 @@ function bestTeam(team1, team2) {
     }
 }
 
-console.log(bestTeam({ name: "Brazil", foul: 5, cardY: 1, cardR: 0 }, { name: "Argentina", foul: 7, cardY: 0, cardR: 0 })); // "Brazil"
-console.log(bestTeam({ name: "Germany", foul: 12, cardY: 0, cardR: 0 }, { name: "Sweden", foul: 7, cardY: 4, cardR: 1 })); // "Tie"
+console.log(bestTeam({ name: "Brazil", foul: 5, cardY: 1, cardR: 0 }, { name: "Argentina", foul: 7, cardY: 0, cardR: 0 }));
+console.log(bestTeam({ name: "Germany", foul: 12, cardY: 0, cardR: 0 }, { name: "Sweden", foul: 7, cardY: 4, cardR: 1 }));
